@@ -7,7 +7,7 @@ import java.nio.IntBuffer;
  *
  * 简单认识NIO中的Buffer(缓冲区)，可往里写入数据，也可从中读取数据，但是读写切换一定要使用方法flip()。
  */
-public class BufferDemo {
+public class BufferWriteReadDemo {
     public static void main(String[] args) {
         //1.创建一个Buffer(容量为10)
         IntBuffer buffer = IntBuffer.allocate(10);

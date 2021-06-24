@@ -9,7 +9,7 @@ import java.nio.channels.FileChannel;
  * <p>
  * Channel通过缓冲区写数据到文件中
  */
-public class FileChannelDemo {
+public class FileChannelWriteDemo {
     public static void main(String[] args) throws Exception{
         /**要写入到文件中的数据*/
         String msg = "Hello, FileChannel...";
